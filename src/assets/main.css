@@ -1,0 +1,47 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+/* variables */
+:root {
+    /* brand colors */
+    --blue: #186b8c;
+    --dark: #0D2340;
+    --red: #CE1E27;
+    --creme: #BFA58E;
+
+    /* brand fonts */
+    --text: 'Poppins';
+    --title: 'Oswald';
+}
+
+/* global styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--title);
+    font-style: normal;
+}
+
+p {
+    font-family: var(--text);
+    font-style: normal;
+    font-weight: 300;
+
+    color: var(--dark);
+}
+
+@media screen and (min-width: 1024px) {
+    
+    p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    
+    p {
+        font-size: 13px;
+        line-height: 19px;
+    
+    }
+}
