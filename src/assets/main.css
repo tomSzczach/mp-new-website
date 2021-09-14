@@ -16,6 +16,22 @@
 }
 
 /* global styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    cursor: pointer;
+    font-family: var(--title);
+    font-style: normal;
+    font-weight: 300;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--title);
     font-style: normal;
@@ -29,19 +45,4 @@ p {
     color: var(--dark);
 }
 
-@media screen and (min-width: 1024px) {
-    
-    p {
-        font-size: 20px;
-        line-height: 30px;
-    }
-}
 
-@media screen and (max-width: 1023px) {
-    
-    p {
-        font-size: 13px;
-        line-height: 19px;
-    
-    }
-}
