@@ -19,12 +19,33 @@ export default {
 </script>
 
 <style scoped>
+.btn {
+    color: rgba(255, 255, 255, 0.8);
+
+    font-size: 21px;
+}
+.footer {
+    background: var(--dark);
+}
+p {
+    color: rgba(255, 255, 255, 0.3);
+
+    font-family: var(--title);
+    font-weight: 300;
+    text-align: center;
+}
+p:last-child, p:last-child a {
+    color: rgba(255, 255, 255, 0.2);
+}
+p:last-child a:hover {
+    color: rgba(255, 255, 255, 0.3);
+}
+
 @media screen and (min-width: 1024px) {
     .footer {
         height: 220px;
         margin-top: 89px;
     }
-
     .footer-links {
         display: flex;
         justify-content: center;
@@ -32,7 +53,6 @@ export default {
 
         padding: 55px 0px;
     }
-    
     p {
         font-size: 16px;
         line-height: 24px;
@@ -43,12 +63,10 @@ export default {
     .btn {
         text-align: center;
     }
-    
     .footer {
         height: 364px;
         margin-top: 55px;
     }
-
     .footer-links {
         display: flex;
         flex-direction: column;
@@ -57,41 +75,10 @@ export default {
         padding-top: 55px;
         padding-bottom: 89px;
     }
-
     p {
         font-size: 13px;
         line-height: 19px;
     }
-    
 }
-
-.btn {
-    color: rgba(255, 255, 255, 0.8);
-
-    font-size: 21px;
-}
-
-.footer {
-    background: var(--dark);
-}
-
-p {
-    color: rgba(255, 255, 255, 0.3);
-
-    font-family: var(--title);
-    font-weight: 300;
-    text-align: center;
-}
-
-p:last-child, p:last-child a {
-    color: rgba(255, 255, 255, 0.2);
-}
-
-p:last-child a:hover {
-    color: rgba(255, 255, 255, 0.3);
-}
-
-
-
 
 </style>

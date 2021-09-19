@@ -1,14 +1,20 @@
 <template>
-  <h1>Meteo Pomorze</h1>
+  <div class="header">
+    <h1>Meteo Pomorze</h1>
   <p>Hello</p>
+  </div>
+  <OtherArticles />
   <Footer />
 </template>
 
 <script>
-import Footer from '@/components/Footer'
+import OtherArticles from '@/components/sections/OtherArticles'
+import Footer from '@/components/sections/Footer'
+
 
 export default {
   components: {
+    OtherArticles,
     Footer
   }
 }
@@ -30,5 +36,9 @@ export default {
         line-height: 19px;
     
     }
+}
+
+.header {
+  grid-column: 1 / end;
 }
 </style>

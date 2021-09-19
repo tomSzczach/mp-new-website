@@ -1,10 +1,15 @@
 <template>
   <p>contact</p>
+  <Footer />
 </template>
 
 <script>
-export default {
+import Footer from '@/components/sections/Footer'
 
+export default {
+  components: {
+    Footer
+  }
 }
 </script>
 

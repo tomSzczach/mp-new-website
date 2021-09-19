@@ -7,6 +7,7 @@
     /* brand colors */
     --blue: #186b8c;
     --dark: #0D2340;
+    --dark-in-rgb: 13, 35, 64;
     --red: #CE1E27;
     --creme: #BFA58E;
 
@@ -35,6 +36,8 @@ a {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--title);
     font-style: normal;
+
+    color: var(--dark);
 }
 
 p {
